@@ -1,5 +1,5 @@
 from atproto import Client
-import os, random, time
+import os, time
 
 client = Client()
 client.login(os.environ['USER_ACCOUNT'], os.environ["APP_PASSWORD"])
